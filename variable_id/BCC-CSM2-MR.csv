@@ -1,0 +1,26 @@
+variable_id,long name,air pressure (Pa),description
+clt,total cloud fration,,"Total cloud area fraction for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud."
+hfls,surface upward latent heat flux,,"The surface called 'surface' means the lower boundary of the atmosphere. 'Upward' indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics."
+hur,relative humidity,"1000, 850, 700, 500, 250, 100, 50, 10","The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C."
+hus,specific humidity,"1000, 850, 700, 500, 250, 100, 50, 10",specific' means per unit mass. Specific humidity is the mass fraction of water vapor in (moist) air.
+huss,near-surface specific humidity,,"Near-surface (usually, 2 meter) specific humidity."
+mrro,total runoff,,The total run-off (including drainage through the base of the soil model) per unit area leaving the land portion of the grid cell.
+mrso,total soil moisture content,,the mass per unit area  (summed over all soil layers) of water in all phases.
+mrsos,moisture in upper portion of soil column,,The mass of water in all phases in the upper 10cm of the  soil layer.
+pr,precipitation,,includes both liquid and solid phases
+prc,convective precipitation,,Convective precipitation at surface; includes both liquid and solid phases.
+psl,sea level pressure,,Air pressure at mean sea level
+rlds,surface downwelling longwave radiation,,"The surface called 'surface' means the lower boundary of the atmosphere. 'longwave' means longwave radiation. Downwelling radiation is radiation from above. It does not mean 'net downward'. When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'. In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics."
+rsds,surface downwelling shortwave radiation,,surface solar irradiance for UV calculations
+sfcWind,daily-mean near-surface wind spedd,,"near-surface (usually, 10 meters) wind speed."
+sfcWindmax,daily maximum near-surface wind speed,,"Daily maximum near-surface (usually, 10 meters) wind speed."
+snw,surface snow amount,,The mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excludes snow on vegetation canopy or on sea ice.
+tas,near-surface air temperature,,"near-surface (usually, 2 meter) air temperature"
+tasmax,daily maximum near-surface air temperature,,"maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: max')"
+tasmin,daily minimum near-surface air temperature,,"minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute 'time: min')"
+ua,eastward wind,"1000, 850, 700, 500, 250, 100, 50, 10","Eastward' indicates a vector component which is positive when directed eastward (negative westward). Wind is defined as a two-dimensional (horizontal) air velocity vector, with no vertical component. (Vertical motion in the atmosphere has the standard name upward_air_velocity.)"
+uas,eastward near-surface wind,,"Eastward component of the near-surface (usually, 10 meters)  wind"
+va,northward wind,"1000, 850, 700, 500, 250, 100, 50, 10","Northward' indicates a vector component which is positive when directed northward (negative southward). Wind is defined as a two-dimensional (horizontal) air velocity vector, with no vertical component. (Vertical motion in the atmosphere has the standard name upward_air_velocity.)"
+vas,northward near-surface wind,,Northward component of the near surface wind
+wap,omega (=dp/dt),"1000, 850, 700, 500, 250, 100, 50, 10","Omega (vertical velocity in pressure coordinates, positive downwards)"
+zg,geopotential height,"1000, 850, 700, 500, 250, 100, 50, 10","Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface."
